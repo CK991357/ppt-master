@@ -1,0 +1,27 @@
+激活虚拟环境
+venv\Scripts\activate
+
+初始化
+python skills/ppt-master/scripts/project_manager.py init test_project --format ppt169 
+
+演讲者笔记分割
+python skills/ppt-master/scripts/total_md_split.py projects/test_project_ppt169_20260406
+
+svg后处理
+python skills/ppt-master/scripts/finalize_svg.py projects/test_project_ppt169_20260406
+
+生成原生版ppt
+python skills/ppt-master/scripts/svg_to_pptx.py projects/test_project_ppt169_20260406 -s final --only native
+
+生成原生以及svg参考版
+python skills/ppt-master/scripts/svg_to_pptx.py projects/test_project_ppt169_20260406 -s final
+
+
+# 添加原版仓库为 upstream（只需一次）
+git remote add upstream https://github.com/hugohe3/ppt-master.git
+
+# 拉取原版更新
+git fetch upstream
+git merge upstream/main   # 合并到你的 main 分支
+# 或者用 rebase
+git rebase upstream/main
