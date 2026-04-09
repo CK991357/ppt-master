@@ -1,6 +1,6 @@
 {
   "meta": {
-    "total": 20,
+    "total": 21,
     "defaultViewBox": "0 0 1280 720",
     "formats": ["ppt169"],
     "standardFiles": ["design_spec.md", "01_cover.svg", "02_toc.svg", "02_chapter.svg", "03_content.svg", "04_ending.svg"],
@@ -10,7 +10,7 @@
   "categories": {
     "brand": {
       "label": "Brand Style Templates",
-      "layouts": ["google_style", "mckinsey", "anthropic", "中汽研_常规", "中汽研_商务", "中汽研_现代", "中国电建_常规", "中国电建_现代", "招商银行"]
+      "layouts": ["google_style", "mckinsey", "anthropic", "中汽研_常规", "中汽研_商务", "中汽研_现代", "中国电建_常规", "中国电建_现代", "招商银行", "tech_data_vis"]
     },
     "general": {
       "label": "General Style Templates",
@@ -32,8 +32,8 @@
   "quickLookup": {
     "strategy": ["exhibit", "mckinsey"],
     "board": ["exhibit", "mckinsey", "招商银行"],
-    "general_business": ["科技蓝商务", "smart_red", "exhibit"],
-    "technology": ["anthropic", "google_style", "smart_red", "ai_ops"],
+    "general_business": ["科技蓝商务", "smart_red", "exhibit", "tech_data_vis"],
+    "technology": ["anthropic", "google_style", "smart_red", "ai_ops", "tech_data_vis"],
     "government": ["government_red", "government_blue", "ai_ops"],
     "academic": ["academic_defense", "重庆大学"],
     "medical": ["medical_university"],
@@ -128,6 +128,14 @@
       "tone": "Modern, vibrant, professional, geometric",
       "themeMode": "Hybrid theme (dark/colorful cover + light content pages)",
       "keywords": ["Red-orange business", "Tech enterprise", "Education", "Vibrant"]
+    },
+    "tech_data_vis": {
+      "label": "Tech Data Visualization Template",
+      "summary": "Professional, clear, data-driven template for technical articles and data reports, matching WeChat public account visual style.",
+      "tone": "Professional, clear, data-driven, structured, restrained",
+      "themeMode": "Light theme (white/light gray background + core color accents: deep blue, forest green, breakthrough purple, data cyan)",
+      "wechat_public_name": "海纳百川集思录",
+      "keywords": ["Tech", "Data visualization", "Professional", "Clean", "Structured", "WeChat public"]
     },
     "中国电建_常规": {
       "label": "PowerChina Standard Template",

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <text x="640" y="80" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#546E7A">目录</text>
+  <line x1="580" y1="100" x2="700" y2="100" stroke="#00838F" stroke-width="4"/>
+
+  <circle cx="120" cy="170" r="8" fill="#1F4E7A"/>
+  <text x="150" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#1F4E7A">01</text>
+  <text x="210" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#546E7A">{{TOC_ITEM_1_TITLE}}</text>
+  <text x="1160" y="180" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#90A4AE">{{TOC_ITEM_1_PAGE}}</text>
+
+  <circle cx="120" cy="240" r="8" fill="#2E7D32"/>
+  <text x="150" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#2E7D32">02</text>
+  <text x="210" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#546E7A">{{TOC_ITEM_2_TITLE}}</text>
+  <text x="1160" y="250" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#90A4AE">{{TOC_ITEM_2_PAGE}}</text>
+
+  <circle cx="120" cy="310" r="8" fill="#6A1B9A"/>
+  <text x="150" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#6A1B9A">03</text>
+  <text x="210" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#546E7A">{{TOC_ITEM_3_TITLE}}</text>
+  <text x="1160" y="320" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#90A4AE">{{TOC_ITEM_3_PAGE}}</text>
+
+  <circle cx="120" cy="380" r="8" fill="#00838F"/>
+  <text x="150" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#00838F">04</text>
+  <text x="210" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#546E7A">{{TOC_ITEM_4_TITLE}}</text>
+  <text x="1160" y="390" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#90A4AE">{{TOC_ITEM_4_PAGE}}</text>
+
+  <circle cx="120" cy="450" r="8" fill="#1F4E7A"/>
+  <text x="150" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#1F4E7A">05</text>
+  <text x="210" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#546E7A">{{TOC_ITEM_5_TITLE}}</text>
+  <text x="1160" y="460" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#90A4AE">{{TOC_ITEM_5_PAGE}}</text>
+
+  <circle cx="120" cy="520" r="8" fill="#2E7D32"/>
+  <text x="150" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#2E7D32">06</text>
+  <text x="210" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#546E7A">{{TOC_ITEM_6_TITLE}}</text>
+  <text x="1160" y="530" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#90A4AE">{{TOC_ITEM_6_PAGE}}</text>
+
+  <line x1="60" y1="660" x2="1220" y2="660" stroke="#90A4AE" stroke-width="1" opacity="0.5"/>
+  <text x="640" y="690" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#90A4AE">数据驱动的洞察 · 清晰呈现</text>
+</svg>

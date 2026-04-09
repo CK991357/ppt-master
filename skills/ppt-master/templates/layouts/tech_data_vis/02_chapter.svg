@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="numGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F4E7A"/>
+      <stop offset="100%" stop-color="#6A1B9A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="#F8F9FA"/>
+
+  <!-- 前景大章节数字（渐变） -->
+  <text x="640" y="320" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="140" font-weight="700" fill="url(#numGrad)">{{CHAPTER_NUM}}</text>
+
+  <!-- 章节标题 -->
+  <text x="640" y="400" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#546E7A">{{CHAPTER_TITLE}}</text>
+
+  <!-- 可选英文副标题 -->
+  <text x="640" y="440" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" fill="#90A4AE" font-style="italic">{{CHAPTER_TITLE_EN}}</text>
+
+  <!-- 底部装饰线 -->
+  <line x1="540" y1="480" x2="740" y2="480" stroke="#00838F" stroke-width="3" stroke-linecap="round"/>
+</svg>

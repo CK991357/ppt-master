@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="4"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.1"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="#F8F9FA"/>
+
+  <rect x="290" y="120" width="700" height="480" rx="16" fill="#FFFFFF" filter="url(#softShadow)"/>
+
+  <text x="640" y="220" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#6A1B9A">{{THANK_YOU}}</text>
+  <text x="640" y="270" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#90A4AE">{{ENDING_SUBTITLE}}</text>
+
+  <line x1="400" y1="300" x2="880" y2="300" stroke="#1F4E7A" stroke-width="2" opacity="0.4"/>
+
+  <text x="640" y="350" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#546E7A">{{CLOSING_MESSAGE}}</text>
+
+  <text x="640" y="430" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#00838F">公众号：{{WECHAT_PUBLIC_NAME}}</text>
+
+  <text x="640" y="550" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#90A4AE">{{COPYRIGHT}}</text>
+
+  <circle cx="580" cy="620" r="4" fill="#1F4E7A"/>
+  <circle cx="600" cy="620" r="4" fill="#2E7D32"/>
+  <circle cx="620" cy="620" r="4" fill="#6A1B9A"/>
+  <circle cx="640" cy="620" r="4" fill="#00838F"/>
+  <circle cx="660" cy="620" r="4" fill="#1F4E7A"/>
+  <circle cx="680" cy="620" r="4" fill="#2E7D32"/>
+  <circle cx="700" cy="620" r="4" fill="#6A1B9A"/>
+</svg>
